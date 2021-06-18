@@ -62,11 +62,13 @@ section {
   margin-bottom: 8px;
 }
 
+.quote-card:nth-child(2n) {
+  background-color: honeydew;
+}
+
 .quote-card {
   padding: 45px;
   margin: 20px;
-
-  background-color: honeydew;
 
   border-radius: 5px;
   box-shadow: 1px 1px 10px 0 rgba(0, 128, 0, 0.2);
